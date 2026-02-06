@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qelto — Digital Solutions for Modern Businesses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar">
+        <a class="logo" href="#home">Qelto</a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <p class="eyebrow">IT Consulting & Software Studio</p>
+          <h1>Qelto — Digital Solutions for Modern Businesses</h1>
+          <p class="subtitle">
+            We help forward-thinking organizations build secure, scalable, and elegant digital
+            experiences across web, cloud, and custom software platforms.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#contact">Contact Us</a>
+            <a class="btn ghost" href="#services">Explore Services</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="metric">
+            <span>98%</span>
+            <p>Client satisfaction</p>
+          </div>
+          <div class="metric">
+            <span>120+</span>
+            <p>Digital projects delivered</p>
+          </div>
+          <div class="metric">
+            <span>24/7</span>
+            <p>Reliable support</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About Qelto</p>
+          <h2>Trusted technology partner for ambitious teams.</h2>
+        </div>
+        <p class="section-body">
+          Qelto is an IT company specializing in software development, web solutions, and cloud
+          transformation. We bring together strategic consulting and hands-on engineering to help
+          businesses modernize infrastructure, accelerate product delivery, and create remarkable
+          digital experiences.
+        </p>
+      </section>
+
+      <section class="services" id="services">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2>Focused expertise for every stage of growth.</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Web Development</h3>
+            <p>High-performance websites, portals, and digital platforms built for scale.</p>
+          </article>
+          <article class="service-card">
+            <h3>Software Engineering</h3>
+            <p>Custom applications crafted with clean architecture and seamless integrations.</p>
+          </article>
+          <article class="service-card">
+            <h3>Cloud & DevOps</h3>
+            <p>Migration, automation, and reliability engineering for modern cloud stacks.</p>
+          </article>
+          <article class="service-card">
+            <h3>IT Consulting</h3>
+            <p>Strategic roadmaps, security reviews, and guidance to maximize technology ROI.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something exceptional together.</h2>
+        </div>
+        <form class="contact-form">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@company.com" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="Tell us about your project" required></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© Qelto. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
