@@ -23,6 +23,12 @@ npm run build
 ```
 Output is generated in `out/`.
 
+## Conflict check
+Run this before pushing if your PR shows merge warnings:
+```bash
+npm run check:conflicts
+```
+
 ## GitHub Pages notes
 `next.config.js` is preconfigured with:
 - `output: 'export'`
