@@ -12,16 +12,21 @@ html {
 
 body {
   @apply bg-slateNight text-slate-100 antialiased;
-  background-image: radial-gradient(circle at 10% 10%, rgba(56, 189, 248, 0.08), transparent 35%),
-    radial-gradient(circle at 85% 0%, rgba(168, 85, 247, 0.1), transparent 30%);
+  background-image: radial-gradient(circle at 10% 15%, rgba(59, 130, 246, 0.12), transparent 32%),
+    radial-gradient(circle at 88% 8%, rgba(168, 85, 247, 0.12), transparent 28%),
+    linear-gradient(180deg, #0f172a 0%, #0b1224 100%);
 }
 
 .glass {
-  background: rgba(15, 23, 42, 0.55);
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.78), rgba(30, 41, 59, 0.45));
   border: 1px solid rgba(148, 163, 184, 0.2);
   backdrop-filter: blur(14px);
 }
 
 .section-wrap {
   @apply mx-auto w-full max-w-6xl px-6 md:px-10;
+}
+
+.input-field {
+  @apply rounded-xl border border-slate-600 bg-slate-900/80 p-3 text-slate-100 placeholder:text-slate-400 focus:border-sky-400 focus:outline-none;
 }

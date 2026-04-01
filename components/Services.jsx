@@ -5,35 +5,39 @@ const services = [
     icon: '⚙️',
     title: 'ERP Implementation',
     description:
-      'Automate operations with integrated inventory, finance, procurement, and CRM workflows that improve visibility and reduce manual overhead.',
+      'Automate inventory, finance, procurement, and CRM workflows through reliable ERP deployment and process redesign.',
   },
   {
     icon: '📈',
     title: 'Brand Promotion',
     description:
-      'Drive measurable growth through SEO, paid ads, social campaigns, and conversion-centered digital marketing strategies.',
+      'Expand digital presence with SEO, ads, content strategy, funnel optimization, and social growth programs.',
   },
   {
     icon: '🎬',
-    title: 'Video Promotion',
+    title: 'Video Production & Promotion',
     description:
-      'Produce and promote high-impact videos, ads, and reels that strengthen brand trust and accelerate audience engagement.',
+      'Create brand films, ad creatives, short-form videos, and campaign distribution strategies that improve engagement.',
   },
   {
     icon: '💻',
-    title: 'Website Development',
+    title: 'Website Design & Development',
     description:
-      'Launch responsive business websites, eCommerce experiences, and SaaS-ready platforms engineered for performance and scalability.',
+      'Design and build modern, high-performance websites, eCommerce storefronts, and SaaS platforms for B2B outcomes.',
   },
 ];
 
 export default function Services() {
   return (
     <section id="services" className="section-wrap py-20">
-      <p className="mb-3 text-sm uppercase tracking-[0.2em] text-sky-300">Core Services</p>
-      <h2 className="max-w-3xl text-3xl font-semibold leading-tight md:text-5xl">
-        Complete digital solutions aligned to your business goals.
+      <p className="mb-3 text-sm uppercase tracking-[0.2em] text-sky-300">Services</p>
+      <h2 className="max-w-3xl text-3xl font-semibold leading-tight text-white md:text-5xl">
+        A complete digital growth stack for modern businesses.
       </h2>
+      <p className="mt-4 max-w-3xl text-slate-300">
+        Every service is structured to support your core KPIs: operational efficiency, lead quality,
+        sales conversion, and long-term scalability.
+      </p>
       <div className="mt-10 grid gap-6 md:grid-cols-2">
         {services.map((service) => (
           <ServiceCard key={service.title} {...service} />
